@@ -52,7 +52,7 @@ Click on the topics below to learn more about our SDK.
 Supported Platforms
 -----------------------
 
-Our SDK supports a wide array of iOS platforms. [Click here](https://developers.getcardflight.com/docs/ios) to view an updated list.
+Our SDK supports a wide array of iOS platforms. [Click here](https://developers.getcardflight.com/docs/android) to view an updated list.
 
 
 Looking for iOS?
