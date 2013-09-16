@@ -58,10 +58,10 @@ Our SDK supports a wide array of Android platforms. [Click here](https://develop
 Looking for iOS?
 -----------------
 
-We've got you covered. [Click here](https://github.com/CardFlight/cardflight-ios) to learn more about our Android SDK. 
+We've got you covered. [Click here](https://github.com/CardFlight/cardflight-ios) to learn more about our iOS SDK.
 
 
 Questions?
 --------
 
-CardFlight is currently in private beta. If you would like to get a hold of our private beta, register here at https://getcardflight.com or email at devs@getcardflight.com . In the meantime, please watch this repo as well will be pushing our first version very soon.
+CardFlight is currently in private beta. If you would like to get a hold of our private beta, register here at https://getcardflight.com or email at devs@getcardflight.com. In the meantime, please watch this repo as well will be pushing our first version very soon.
