@@ -1,20 +1,14 @@
 CardFlight's Andriod SDK Library
 =================
 
-*CardFlight is currently in private beta. If you would like to get ahold of our private beta, Request Access at [https://getcardflight.com](https://getcardflight.com/) or email [devs@getcardflight.com](mailto: devs@getcardflight.com).*
-
 Introduction
 ------------
 
-The CardFlight's Andriod SDK is used to process card present and card not-present transactions in your Andriod application.
+The CardFlight iOS SDK is used to process card present and card not-present transactions in your Android application.
 
-CardFlight's SDK's is based around keeping it as simple as possible, however keeping the highest level of [security](https://developers.getcardflight.com/help/security) at the forefront of all that we do. Taking out the pain of PCI-compliance when building your app.
+CardFlight's SDK is based around keeping it as simple as possible while keeping the highest level of [security](https://developers.getcardflight.com/help/security) at the forefront of all that we do. Take out the pain of PCI-compliance when building your app.
 
-Authenticationis done thorugh your API Keys and processing is done through the Account Tokens. All connections to CardFlight's API id done thorugh HTTPS over HSTS.
-
-[JSON](http://www.json.org) is used where possible upon returning responses from the API, including errors.
-
-*CardFlight is currently in private beta. If you would like to get a hold of our private beta, register here at [https://getcardflight.com](https://getcardflight.com/request_access) or email at [devs@getcardflight.com](mailto: devs@getcardflight.com). In the meantime, please watch this repo as well will be pushing our first version very soon.*
+Authentication is done through your API Keys and processing is done through the Account Tokens. All connections to CardFlight's API are done through HTTPS over HSTS.
 
 
 Setup
@@ -22,7 +16,7 @@ Setup
 
 Add **CardFlight.jar** library in the libs folder of the project of your application. Once the jar has been added, add the required permissions in the AndroidManifest.xml file.
 
-##### Example
+### Installation
 
 ```
 <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -31,22 +25,29 @@ Add **CardFlight.jar** library in the libs folder of the project of your applica
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
-You will also need to set the CardFlight activity for the ManualEntryActivity class.
+### Initialize
+
+To access your CardFlight account you will need to set your Developer API key and the associated Merchant Account Token that you wish to connect to when making payments.
+
+##### Example
 
 ```
-<activity android:name="com.cardflight.ManualEntryActivity">
+CardFlight.getInstance().setApiTokenAndAccountToken("e9cb15260f08e738b782952895d4ba4f", "acc_04ff8bf650afb268");
 ```
+
+The CardFlight SDK is broken into easy-to-manage components. You just include the ones that you want to use in the header files of the classes that need to access those components.
 
 SDK Documentation
 --------------
 
 - [Errors](https://developers.getcardflight.com/docs/api/android#errors)
-- [Initialization](https://developers.getcardflight.com/docs/api/android#initialization)
+- [Reader Initialization](https://developers.getcardflight.com/docs/api/android#reader_initialization)
 - [Swipe Card](https://developers.getcardflight.com/docs/api/android#swipe_card)
 - [Swipe Response](https://developers.getcardflight.com/docs/api/android#swipe_card_response)
 - [Keyed Entry](https://developers.getcardflight.com/docs/api/android#keyed_entry)
 - [Keyed Response](https://developers.getcardflight.com/docs/api/android#keyed_response)
-- [Process Payment](https://developers.getcardflight.com/docs/api/android#process_payment)
+- [Charge Card](https://developers.getcardflight.com/docs/api/android#process_payment)
+- [Refund Charge](https://developers.getcardflight.com/docs/api/android#refund_charge)
 
 
 Supported Platforms
