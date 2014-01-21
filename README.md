@@ -14,7 +14,7 @@ Authentication is done through your API Keys and processing is done through the 
 Setup
 ----------
 
-Add **CardFlight.jar** library in the libs folder of the project of your application. Once the jar has been added, add the required permissions in the AndroidManifest.xml file.
+Add **cardflight.jar** library in the libs folder of the project of your application. Once the jar has been added, add the required permissions in the AndroidManifest.xml file.
 
 ### Installation
 
