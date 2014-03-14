@@ -1,4 +1,4 @@
-CardFlight's Andriod SDK Library
+CardFlight's Android SDK Library
 =================
 
 Introduction
