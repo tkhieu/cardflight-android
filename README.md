@@ -13,11 +13,12 @@ Authentication is done through your API Keys and processing is done through the 
 Change Log
 ----------
 v1.6:
-    * Updated methods for Void and Refund.
-    * New methods for Authorizing a charge and Capturing a charge.
-    * New Autoconfig handler for configuring devices that may not be compatibile on initial connection with reader.
-    * New zip code text field option in PaymentView.
-    * Ability to add metadata hashmap on Charge and Authorize methods.
+
+- Updated methods for Void and Refund.
+- New methods for Authorizing a charge and Capturing a charge.
+- New Autoconfig handler for configuring devices that may not be compatibile on initial connection with reader.
+- New zip code text field option in PaymentView.
+- Ability to add metadata hashmap on Charge and Authorize methods.
 
 Setup
 ----------
