@@ -56,6 +56,8 @@ SDK Documentation
 - [Keyed Entry](https://developers.getcardflight.com/docs/api/android#keyed_entry)
 - [Keyed Response](https://developers.getcardflight.com/docs/api/android#keyed_response)
 - [Charge Card](https://developers.getcardflight.com/docs/api/android#process_payment)
+- [Authorize Charge](https://developers.getcardflight.com/docs/api/android#authorize_charge)
+- [Capture Charge](https://developers.getcardflight.com/docs/api/android#capture_charge)
 - [Refund Charge](https://developers.getcardflight.com/docs/api/android#refund_charge)
 
 
