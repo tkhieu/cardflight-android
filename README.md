@@ -4,17 +4,25 @@ CardFlight's Android SDK Library
 Introduction
 ------------
 
-The CardFlight iOS SDK is used to process card present and card not-present transactions in your Android application.
+The CardFlight Android SDK is used to process card present and card not-present transactions in your Android application.
 
 CardFlight's SDK is based around keeping it as simple as possible while keeping the highest level of [security](https://developers.getcardflight.com/help/security) at the forefront of all that we do. Take out the pain of PCI-compliance when building your app.
 
 Authentication is done through your API Keys and processing is done through the Account Tokens. All connections to CardFlight's API are done through HTTPS over HSTS.
 
+Change Log
+----------
+v1.6:
+    * Updated methods for Void and Refund.
+    * New methods for Authorizing a charge and Capturing a charge.
+    * New Autoconfig handler for configuring devices that may not be compatibile on initial connection with reader.
+    * New zip code text field option in PaymentView.
+    * Ability to add metadata hashmap on Charge and Authorize methods.
 
 Setup
 ----------
 
-Add **cardflight.jar** library in the libs folder of the project of your application. Once the jar has been added, add the required permissions in the AndroidManifest.xml file.
+Import the cardflight-android folder as a library project into your application. Once the library project has been added, add the required permissions in the AndroidManifest.xml file.
 
 ### Installation
 
