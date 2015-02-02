@@ -6,7 +6,7 @@ Introduction
 
 The CardFlight Android SDK is used to process card present and card not-present transactions in your Android application.
 
-CardFlight's SDK is based around keeping it as simple as possible while keeping the highest level of [security](https://developers.getcardflight.com/help/security) at the forefront of all that we do. Take out the pain of PCI-compliance when building your app.
+CardFlight's SDK is based around keeping it as simple as possible while keeping the highest level of [security](https://developers.cardflight.com/help/security) at the forefront of all that we do. Take out the pain of PCI-compliance when building your app.
 
 Authentication is done through your API Keys and processing is done through the Account Tokens. All connections to CardFlight's API are done through HTTPS over HSTS.
 
@@ -49,22 +49,22 @@ The CardFlight SDK is broken into easy-to-manage components. You just include th
 SDK Documentation
 --------------
 
-- [Errors](https://developers.getcardflight.com/docs/api/android#errors)
-- [Reader Initialization](https://developers.getcardflight.com/docs/api/android#reader_initialization)
-- [Swipe Card](https://developers.getcardflight.com/docs/api/android#swipe_card)
-- [Swipe Response](https://developers.getcardflight.com/docs/api/android#swipe_card_response)
-- [Keyed Entry](https://developers.getcardflight.com/docs/api/android#keyed_entry)
-- [Keyed Response](https://developers.getcardflight.com/docs/api/android#keyed_response)
-- [Charge Card](https://developers.getcardflight.com/docs/api/android#process_payment)
-- [Authorize Charge](https://developers.getcardflight.com/docs/api/android#authorize_charge)
-- [Capture Charge](https://developers.getcardflight.com/docs/api/android#capture_charge)
-- [Refund Charge](https://developers.getcardflight.com/docs/api/android#refund_charge)
+- [Errors](https://developers.cardflight.com/docs/api/android#errors)
+- [Reader Initialization](https://developers.cardflight.com/docs/api/android#reader_initialization)
+- [Swipe Card](https://developers.cardflight.com/docs/api/android#swipe_card)
+- [Swipe Response](https://developers.cardflight.com/docs/api/android#swipe_card_response)
+- [Keyed Entry](https://developers.cardflight.com/docs/api/android#keyed_entry)
+- [Keyed Response](https://developers.cardflight.com/docs/api/android#keyed_response)
+- [Charge Card](https://developers.cardflight.com/docs/api/android#process_payment)
+- [Authorize Charge](https://developers.cardflight.com/docs/api/android#authorize_charge)
+- [Capture Charge](https://developers.cardflight.com/docs/api/android#capture_charge)
+- [Refund Charge](https://developers.cardflight.com/docs/api/android#refund_charge)
 
 
 Supported Platforms
 -----------------------
 
-Our SDK supports a wide array of Android platforms. [Click here](https://developers.getcardflight.com/docs/android) to view an updated list.
+Our SDK supports a wide array of Android platforms. [Click here](https://developers.cardflight.com/docs/android) to view an updated list.
 
 
 Looking for iOS?
