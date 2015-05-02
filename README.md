@@ -12,6 +12,19 @@ Authentication is done through your API Keys and processing is done through the 
 
 Change Log
 ----------
+
+v2.11
+
+- New StopReader API to stop any pending operations.
+
+
+v2.10
+
+- Support Android 5+ devices.
+- Remember last used reader type.
+- Improved error handler.
+
+
 v1.6:
 
 - Updated methods for Void and Refund.
