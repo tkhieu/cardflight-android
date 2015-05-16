@@ -13,6 +13,13 @@ Authentication is done through your API Keys and processing is done through the 
 Change Log
 ----------
 
+v2.13
+
+- Fix crash when setting custom swipetime before connecting reader.
+- Improve support for custom swipe timeout.
+- New StopSwipe API to cancel swipe operation.
+
+
 v2.11
 
 - New StopReader API to stop any pending operations.
