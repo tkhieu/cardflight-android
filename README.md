@@ -13,6 +13,11 @@ Authentication is done through your API Keys and processing is done through the 
 Change Log
 ----------
 
+v2.18
+
+- Fix bug with failty swipe which causes another swipe attemp instead of failing.
+
+
 v2.17
 
 - New initializer for single device mode. SDK would try to connect only to overriden reader type.
