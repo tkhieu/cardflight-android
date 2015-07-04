@@ -13,6 +13,12 @@ Authentication is done through your API Keys and processing is done through the 
 Change Log
 ----------
 
+v2.20
+
+- Update more devices with the Walker reader.
+- Improved messages. 
+
+
 v2.18
 
 - Fix bug with failty swipe which causes another swipe attemp instead of failing.
