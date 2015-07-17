@@ -13,6 +13,11 @@ Authentication is done through your API Keys and processing is done through the 
 Change Log
 ----------
 
+v2.21
+
+- Update more devices with the Walker reader.
+ 
+
 v2.20
 
 - Update more devices with the Walker reader.
