@@ -13,6 +13,12 @@ Authentication is done through your API Keys and processing is done through the 
 Change Log
 ----------
 
+v2.26
+
+- Fix missing card holder name in Rambler reader.
+- Update external libs.
+
+
 v2.24
 
 - New RestartReader API to restart reader while it connected.
