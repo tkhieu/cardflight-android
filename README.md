@@ -13,6 +13,10 @@ Authentication is done through your API Keys and processing is done through the 
 Change Log
 ----------
 
+v3.0.5
+
+- Bug fixes
+
 v3.0.4
 
 - Added EMV support.
