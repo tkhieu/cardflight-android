@@ -12,6 +12,19 @@ Documentation for our Android SDK can be found on cardflight.com, or by clicking
 
 ## Change Log
 
+#### v3.2
+* Add callback to receive more information about a card before charging
+* Add method to charge a vaulted card
+* Add Constants class to easily access keys used by various methods
+* Improve connectivity issues and messaging
+* Add method to disable reader timeouts
+* Add callback when setting API Key and Account Token
+* Improve reader connection times
+* Bug fixes
+
+#### v3.1.1
+* Allow library to work with Proguard
+
 #### v3.1
 * Improve reader connection times
 * Deprecate use of the readerIsConnecting callback in CardFlightDeviceHandler
@@ -106,7 +119,7 @@ To access your CardFlight account you will need to set your Developer API key an
 ```
 CardFlight.getInstance()
 		.setApiTokenAndAccountToken("e9cb15260f08e738b782952895d4ba4f",
-				"acc_04ff8bf650afb268");
+				"acc_04ff8bf650afb268", null);
 ```
 
 The CardFlight SDK is broken into easy-to-manage components. You just include the ones that you want to use in the header files of the classes that need to access those components.
